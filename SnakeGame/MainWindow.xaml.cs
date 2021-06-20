@@ -136,6 +136,7 @@ namespace SnakeGame
             if (e.Key == Key.Left && direction != right)
             {
                 direction = left;
+                
             }
 
             if (e.Key == Key.Right && direction != left)

@@ -2,15 +2,15 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Змейка" Height="400" Width="500" KeyDown="Window_KeyDown" Loaded="Window_Loaded">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Canvas Name="mycanvas" Background="LightBlue"></Canvas>
-        <Canvas Grid.Column="1">
-            <TextBlock Name="txtScore" Canvas.Left="20" Canvas.Top="50">0</TextBlock>
-            <Label Content="Очки" Canvas.Left="14" Canvas.Top="23" RenderTransformOrigin="-0.002,-0.155"/>
-        </Canvas>
-    </Grid>
-</Window>
+     <Grid>
+         <Grid.ColumnDefinitions>
+             <ColumnDefinition Width="4*"/>
+             <ColumnDefinition Width="*"/>
+         </Grid.ColumnDefinitions>
+         <Canvas Name="mycanvas" Background="LightBlue"></Canvas>
+         <Canvas Grid.Column="1">
+             <TextBlock Name="txtScore" Canvas.Left="20" Canvas.Top="50">0</TextBlock>
+             <Label Content="Очки" Canvas.Left="14" Canvas.Top="23" RenderTransformOrigin="-0.002,-0.155"/>
+         </Canvas>
+     </Grid>
+ </Window>
